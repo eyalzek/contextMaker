@@ -1,0 +1,15 @@
+body {
+    display: flex;
+}
+
+.inputContainer {
+    width: 60%;
+}
+
+.buttonContainer {
+    flex-grow: 1;
+}
+
+.urlInput {
+    width: 60%;
+}
