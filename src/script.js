@@ -9,6 +9,8 @@ $(document).ready(function() {
     $('.load').on('click', function(e) {
         var values = [];
 
+        $('.load').prop('disabled', true);
+        $('.load').html('creating context image...');
         $('.urlInput').each(function(i, el) {
             if ($(el).val() !== "") values.push($(el).val());
         });
